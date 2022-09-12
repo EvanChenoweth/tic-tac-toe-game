@@ -1,0 +1,45 @@
+label {
+  font-size: 34px;
+  text-align: center;
+  font-family: helvetica;
+  font-style: bold;
+  padding: 35px;
+}
+
+.container {
+  display: grid;
+  gap: 3px;
+  grid-template-columns: repeat(3, 0fr);
+}
+
+.tile {
+  height: 100px;
+  width: 100px;
+  padding: 0;
+  background-color: #ccc;
+}
+
+div {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: white;
+  padding: 15px 20px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+
+button:active {
+  transform: scale(0.98);
+  box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.24);
+}
